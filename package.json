@@ -1,0 +1,30 @@
+{
+  "name": "corrupted-palette",
+  "displayName": "corrupted-palette",
+  "description": "",
+  "version": "0.0.1",
+  "icon": "corrupted_palette.png",
+  "author": {
+    "name": "Pablo Martinez"
+  },
+  "repository": {
+    "url": "https://github.com/PabloEmv/Corrupeted-Palette-Theme.git",
+    "type": "git"
+  },
+  "publisher": "pablo-martinez-dev",
+  "engines": {
+    "vscode": ">=1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Corrupted Palette",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Corrupted Palette-color-theme.json"
+      }
+    ]
+  }
+}
